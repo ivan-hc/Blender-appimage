@@ -38,9 +38,10 @@ cp -r ./blender.png blender.AppDir/blender.png
 sed -i "s/Name=BLENDER/Name=$APPNAME/g" blender.AppDir/blender.desktop || exit 1
 
 # Export to AppImage
+APPNAME=$(echo "$APPNAME" | sed 's/ /_/g')
 REPO="$APPNAME-appimage"
 TAG="continuous-$branch"
-VERSION="$branch-$(echo "$download" | tr '-' '\n' | grep "^[0-9]")"
+VERSION=$(echo "$download" | tr '-' '\n' | grep "^[0-9]")
 UPINFO="gh-releases-zsync|$GITHUB_REPOSITORY_OWNER|$REPO|$TAG|*x86_64.AppImage.zsync"
 
 ARCH=x86_64 ./appimagetool --comp zstd --mksquashfs-opt -Xcompression-level --mksquashfs-opt 20 \
