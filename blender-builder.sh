@@ -44,12 +44,12 @@ APPNAME=$(echo "$APPNAME" | sed 's/ /_/g')
 REPO="$APPNAME-appimage"
 TAG="continuous-$branch"
 VERSION=$(echo "$download" | tr '-' '\n' | grep "^[0-9]")
-build=$(echo "$download" | tr '+-' '\n' | grep "v[0-9]")
+build=$(echo "$download" | tr '-' '\n' | grep "^$branch" | tail -1)
 UPINFO="gh-releases-zsync|$GITHUB_REPOSITORY_OWNER|$REPO|$TAG|*x86_64.AppImage.zsync"
 
 ARCH=x86_64 ./appimagetool --comp zstd --mksquashfs-opt -Xcompression-level --mksquashfs-opt 20 \
 	-u "$UPINFO" \
-	./blender.AppDir "$APPNAME"-"$VERSION"-"$branch"+"$build"-x86_64.AppImage
+	./blender.AppDir "$APPNAME"-"$VERSION"-"$build"-x86_64.AppImage
 
 if ! test -f ./*AppImage; then
 	exit 0
