@@ -1,6 +1,8 @@
 # Blender-appimage
 Unofficial AppImages. 3D modeling, animation, rendering and post-production software.
 
+Built on top of the official portable builds. No changes made, other than renaming the "blender-launcher" script to AppRun and adding to the .desktop file.
+
 ------------------------------------------------------------------------
 
 ## Install and update them all with ease
