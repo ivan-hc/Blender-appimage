@@ -1,4 +1,4 @@
 https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.4.2-candidate%2Bv44.e79585f899b9-x86_64.AppImage
-https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-4.5.0-beta%2Bv45.729fc1ed47ac-x86_64.AppImage
-https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.c40d8f50b60d-x86_64.AppImage
+https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-4.5.0-beta%2Bv45.4431d7a369b0-x86_64.AppImage
+https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.b2d6af6c2bd0-x86_64.AppImage
 https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-stable/Blender-4.4.2-stable%2Bv44.085299abbee1-x86_64.AppImage
