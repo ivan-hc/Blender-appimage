@@ -1,5 +1,5 @@
-https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.0-candidate%2Bv45.4a68512db9fd-x86_64.AppImage
+https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-candidate/Blender_Release_Candidate-4.5.0-candidate%2Bv45.44faabdedd2e-x86_64.AppImage
 https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-beta/Blender_Beta-4.5.0-beta%2Bv45.85ad73809fa9-x86_64.AppImage
-https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.aabedd8ad144-x86_64.AppImage
+https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-alpha/Blender_Alpha-5.0.0-alpha%2Bmain.319a2a5e5713-x86_64.AppImage
 https://github.com/ivan-hc/Blender-appimage/releases/download/continuous-stable/Blender-4.4.2-stable%2Bv44.085299abbee1-x86_64.AppImage
-Sat Jul 12 01:25:08 UTC 2025
+Sun Jul 13 01:40:11 UTC 2025
