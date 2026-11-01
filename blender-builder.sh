@@ -34,8 +34,8 @@ mv blender.AppDir/blender-launcher blender.AppDir/AppRun
 
 # Launcher and icon
 cp -r ./blender.desktop blender.AppDir/blender.desktop
-if ! test -f blender.AppDir/blender.svg; then
-	cp -r ./blender.svg blender.AppDir/blender.svg
+if ! test -f blender.AppDir/blender.png; then
+	cp -r ./blender.svg blender.AppDir/blender.png
 fi
 sed -i "s/Name=BLENDER/Name=$APPNAME/g" blender.AppDir/blender.desktop || exit 1
 
